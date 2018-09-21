@@ -681,7 +681,7 @@ def lineBot(op):
                     line.sendMessage(to, "████████▒... 80.0%")
                     line.sendMessage(to, "█████████▒... 90.0%")
                     line.sendMessage(to, "███████████..100.0%")
-                    line.sendMessage(to, "บอท☪➴͜͡✯™ℓສื❍ℓথஆ➴͜͡✯๛")
+                    line.sendMessage(to, "BOT BY: MAXSY")
                 elif msg.text.lower() == "ออน":
                     line.sendMessage(msg.to,(str(datetime.datetime.now() - start_runtime)[:-7].split(" days, ")[0]+" วัน "+str(datetime.datetime.now() - start_runtime)[:-7].split(" days, ")[1].split(":")[0]+" ชั่วโมง " if "days" in str(datetime.datetime.now() - start_runtime) else str(datetime.datetime.now() - start_runtime)[:-7].split(" day, ")[0]+" วัน "+str(datetime.datetime.now() - start_runtime)[:-7].split(" day, ")[1].split(":")[0]+" ชั่วโมง " if "day" in str(datetime.datetime.now() - start_runtime) else str(datetime.datetime.now() - start_runtime)[:-7].split(":")[0]+" ชั่วโมง ")+str(datetime.datetime.now() - start_runtime)[:-7].split(":")[1]+" นาที "+str(datetime.datetime.now() - start_runtime)[:-7].split(":")[2]+" วินาที")               
                 elif "คท " in msg.text:
@@ -748,7 +748,7 @@ def lineBot(op):
                     start = time.time()
                     line.sendMessage(msg.to,"ความเร็วอยู่ที่")
                     line.sendMessage(msg.to,str(int(round((time.time() - start) * 1000)))+" ms")
-                elif 'มาหำ' in text.lower():
+                elif 'คิกมา' in text.lower():
                     if msg.toType == 2:
                         G = line.getGroup(to)
                         if G.preventedJoinByTicket == False:
@@ -758,6 +758,7 @@ def lineBot(op):
                             ki.acceptGroupInvitationByTicket(to, Ti)
                             kk.acceptGroupInvitationByTicket(to, Ti)
                             kc.acceptGroupInvitationByTicket(to, Ti)
+                            ks.acceptGroupInvitationByTicket(to, Ti)
                             G.preventedJoinByTicket = True
                             line.updateGroup(G)
                         else:
@@ -768,48 +769,50 @@ def lineBot(op):
                             ki.acceptGroupInvitationByTicket(to, Ti)
                             kk.acceptGroupInvitationByTicket(to, Ti)
                             kc.acceptGroupInvitationByTicket(to, Ti)
+                            ks.acceptGroupInvitationByTicket(to, Ti)
                             G.preventedJoinByTicket = True
                             line.updateGroup(G)
-                elif text.lower() == 'ไป':
+                elif text.lower() == 'คิกออก':
                     if msg.toType == 2:
                         ginfo = line.getGroup(to)
                         try:
                             ki.leaveGroup(to)
-                            kc.leaveGroup(to)
                             kk.leaveGroup(to)
+                            kc.leaveGroup(to)
+                            ks.leaveGroup(to)
                         except:
                             pass
                 elif text.lower() == 'สปีด':
                     start = time.time()
-                    line.sendMessage(to,"วัดสปีดโดย..☪➴͜͡✯™ℓສื❍ℓথஆ➴͜͡✯๛")
+                    line.sendMessage(to,"[กำลังวัดสปีด]...")
                     elapsed_time = time.time() - start
                     line.sendMessage(to,format(str(elapsed_time)))	
                 elif text.lower() == 'รีบอท':
-                    line.sendMessage(to, "กำลังเริ่มต้นใหม่ ... โปรดรอสักครู่ ..")
+                    line.sendMessage(to, "กำลังเริ่มต้นใหม่ ...\nโปรดรอสักครู่ ..")
                     line.sendMessage(to, "บอทได้ทำการ เขาระบบใหม่อีกครั้งแล้ว....")
                     restartBot()
                 elif text.lower() == 'ออน':
                     timeNow = time.time()
                     runtime = timeNow - botStart
                     runtime = format_timespan(runtime)
-                    line.sendMessage(to, "〘Ŧ€₳M↬☪➴͜͡✯™ℓສื❍ℓথஆ➴͜͡✯๛〙\n""ระยะเวลาการทำงานของบอท {}".format(str(runtime)))
+                    line.sendMessage(to, "ระยะเวลาการทำงานของบอท {}".format(str(runtime)))
                 elif text.lower() == 'บอท':
                     try:
                         arr = []
-                        owner = "ub086ba2f15292141da1d900723003fe3"
+                        owner = "ue1d6a794435130d139f9c5dde19aa9e5"
                         creator = line.getContact(owner)
                         contact = line.getContact(lineMID)
                         grouplist = line.getGroupIdsJoined()
                         contactlist = line.getAllContactIds()
                         blockedlist = line.getBlockedContactIds()
-                        ret_ = "╔══[ ☪➴͜͡✯™ℓສื❍ℓথஆ➴͜͡✯๛ ]" 
-                        ret_ += "\n╠❂☞ ชื่อ ═ {}".format(contact.displayName)
-                        ret_ += "\n╠❂☞ กลุ่ม ═ {}".format(str(len(grouplist)))
-                        ret_ += "\n╠❂☞ เพื่อน ═ {}".format(str(len(contactlist)))
-                        ret_ += "\n╠❂☞ บล็อค ═ {}".format(str(len(blockedlist)))
+                        ret_ = "╔══[ ข้อมูล ]" 
+                        ret_ += "\n╠ ✯͜͡❂ ชื่อ ═ {}".format(contact.displayName)
+                        ret_ += "\n╠ ✯͜͡❂ กลุ่ม ═ {}".format(str(len(grouplist)))
+                        ret_ += "\n╠ ✯͜͡❂ เพื่อน ═ {}".format(str(len(contactlist)))
+                        ret_ += "\n╠ ✯͜͡❂ บล็อค ═ {}".format(str(len(blockedlist)))
                         ret_ += "\n╠══[สถานะ]"
-                        ret_ += "\n╠❂☞ ผู้สร้าง ═ {}".format(creator.displayName)
-                        ret_ += "\n╚══[ ☪➴͜͡✯™ℓສื❍ℓথஆ➴͜͡✯๛ ]"
+                        ret_ += "\n╠ ✯͜͡❂ ผู้สร้าง ═ {}".format(creator.displayName)
+                        ret_ += "\n╚══[【さัএπัஞ✵ບิथℓℓҨतΩ】]"
                         line.sendContact(to, owner)
                         line.sendMessage(to, str(ret_))
                     except Exception as e:
@@ -817,34 +820,34 @@ def lineBot(op):
 #==============================================================================#
                 elif text.lower() == 'เชคค่า':
                     try:
-                        ret_ = "╔════[ by☪➴͜͡✯™ℓສื❍ℓথஆ➴͜͡✯๛]═════┓"
-                        if settings["autoBlock"] == True: ret_ += "\n╠❂☞ รับบล็อคออโต้ ✔"
-                        else: ret_ += "\n╠❂☞ รับบล็อคออโต้    ✘ "
-                        if settings["autoJoin"] == True: ret_ += "\n╠❂☞ เข้าห้องออโต้ ✔"
-                        else: ret_ += "\n╠❂☞ เข้าห้องออโต้    ✘ "
-                        if settings["contact"] == True: ret_ += "\n╠❂☞ เช็คMid ✔"
-                        else: ret_ += "\n╠❂☞ เช็คMid ✘"
-                        if settings["autoCancel"]["on"] == True:ret_+="\n╠❂☞ ยกเลิกเชิญกลุ่มเมื่อมีสมาชิกต่ำกว่า: " + str(settings["autoCancel"]["members"]) + " → ✔"
-                        else: ret_ += "\n╠❂☞ ยกเลิกเชิญกลุ่ม    ✘ "						
-                        if settings["autoLeave"] == True: ret_ += "\n╠❂☞ ออกแชทรวม ✔"
-                        else: ret_ += "\n╠❂☞ ออกแชทรวม ✘ "
-                        if settings["autoRead"] == True: ret_ += "\n╠❂☞ อ่านออโต้ ✔"
-                        else: ret_ += "\n╠❂☞ อ่านออโต้   ✘ "				
-                        if settings["checkSticker"] == True: ret_ += "\n╠❂☞ เชคติ้ก ✔"
-                        else: ret_ += "\n╠❂☞ เชคติ้ก        ✘ "
-                        if settings["Wc"] == True: ret_ += "\n╠❂☞ ต้อนรับคนเข้า ✔"
-                        else: ret_ += "\n╠❂☞ ตอนรับคนเข้า ✘ "
-                        if settings["Wc"] == True: ret_ += "\n╠❂☞ ข้อความคนออก ✔"
-                        else: ret_ += "\n╠❂☞ ข้อความคนออก  ✘ "
-                        if settings["timeline"] == True: ret_ += "\n╠❂☞ ลิ้งแชร์ ✔"
-                        else: ret_ += "\n╠❂☞ ลิ้งแชร์    ✘ "
-                        if settings["detectMention"] == True: ret_ += "\n╠❂☞ ตอบกลับคนแทค ✔"
-                        else: ret_ += "\n╠❂☞ ตอบกลับคนแทค ✘ "
-                        if settings["potoMention"] == True: ret_ += "\n╠❂☞ แสดงภาพคนแทค ✔"
-                        else: ret_ += "\n╠❂☞ แสดงภาพคนแทค ✘ "
-                        if settings["detectMention"] == True: ret_ += "\n╠❂☞ แสดงติ้กคนแทค ✔"
-                        else: ret_ += "\n╠❂☞ แสดงติ้กคนแทค ✘ "
-                        ret_ += "\n╚════[ by☪➴͜͡✯™ℓສื❍ℓথஆ➴͜͡✯๛]═════┛"
+                        ret_ = "╔═BY:【さัএπัஞ✵ບิथℓℓҨतΩ】══"
+                        if settings["autoBlock"] == True: ret_ += "\n╠ ✯͜͡❂ รับบล็อคออโต้ ✔"
+                        else: ret_ += "\n╠ ✯͜͡❂ รับบล็อคออโต้    ✘ "
+                        if settings["autoJoin"] == True: ret_ += "\n╠ ✯͜͡❂ เข้าห้องออโต้ ✔"
+                        else: ret_ += "\n╠ ✯͜͡❂ เข้าห้องออโต้    ✘ "
+                        if settings["contact"] == True: ret_ += "\n╠ ✯͜͡❂ เช็คMid ✔"
+                        else: ret_ += "\n╠ ✯͜͡❂ เช็คMid ✘"
+                        if settings["autoCancel"]["on"] == True:ret_+="\n╠ ✯͜͡❂ ยกเลิกเชิญกลุ่มเมื่อมีสมาชิกต่ำกว่า: " + str(settings["autoCancel"]["members"]) + " → ✔"
+                        else: ret_ += "\n╠ ✯͜͡❂ ยกเลิกเชิญกลุ่ม    ✘ "						
+                        if settings["autoLeave"] == True: ret_ += "\n╠ ✯͜͡❂ ออกแชทรวม ✔"
+                        else: ret_ += "\n╠ ✯͜͡❂ ออกแชทรวม ✘ "
+                        if settings["autoRead"] == True: ret_ += "\n╠ ✯͜͡❂ อ่านออโต้ ✔"
+                        else: ret_ += "\n╠ ✯͜͡❂ อ่านออโต้   ✘ "				
+                        if settings["checkSticker"] == True: ret_ += "\n╠ ✯͜͡❂ เชคติ้ก ✔"
+                        else: ret_ += "\n╠ ✯͜͡❂ เชคติ้ก        ✘ "
+                        if settings["Wc"] == True: ret_ += "\n╠ ✯͜͡❂ ต้อนรับคนเข้า ✔"
+                        else: ret_ += "\n╠ ✯͜͡❂ ตอนรับคนเข้า ✘ "
+                        if settings["Wc"] == True: ret_ += "\n╠ ✯͜͡❂ ข้อความคนออก ✔"
+                        else: ret_ += "\n╠ ✯͜͡❂ ข้อความคนออก  ✘ "
+                        if settings["timeline"] == True: ret_ += "\n╠ ✯͜͡❂ ลิ้งแชร์ ✔"
+                        else: ret_ += "\n╠ ✯͜͡❂ ลิ้งแชร์    ✘ "
+                        if settings["detectMention"] == True: ret_ += "\n╠ ✯͜͡❂ ตอบกลับคนแทค ✔"
+                        else: ret_ += "\n╠ ✯͜͡❂ ตอบกลับคนแทค ✘ "
+                        if settings["potoMention"] == True: ret_ += "\n╠ ✯͜͡❂ แสดงภาพคนแทค ✔"
+                        else: ret_ += "\n╠ ✯͜͡❂ แสดงภาพคนแทค ✘ "
+                        if settings["detectMention"] == True: ret_ += "\n╠ ✯͜͡❂ แสดงติ้กคนแทค ✔"
+                        else: ret_ += "\n╠ ✯͜͡❂ แสดงติ้กคนแทค ✘ "
+                        ret_ += "\n╚═BY:【さัএπัஞ✵ບิथℓℓҨतΩ】══"
                         line.sendMessage(to, str(ret_))
                     except Exception as e:
                         line.sendMessage(msg.to, str(e))
@@ -946,10 +949,10 @@ def lineBot(op):
                     line.sendMessage(to, "👎ปิดระบบเตะคนแทค👎")     
                 elif text.lower() == 'เปลี่ยนดิส':
                      settings["changePictureProfile"] = True
-                     line.sendMessage(to, "🐯รูปมา🐯")
+                     line.sendMessage(to, "ส่งรูป")
                 elif text.lower() == 'เปลี่ยนกลุ่ม': 
                      settings["changeGroupPicture"] = True
-                     line.sendMessage(to, "🐯ส่งรูปมา🐯")      
+                     line.sendMessage(to, "ส่งรูป")      
 #==============================================================================#
 
                 elif text.lower() == 'คท':
@@ -957,7 +960,7 @@ def lineBot(op):
                     line.sendContact(to, lineMID)
                 elif text.lower() == 'ผส':
                     sendMessageWithMention(to, lineMID)
-                    line.sendContact(to, "ub086ba2f15292141da1d900723003fe3")
+                    line.sendContact(to, "ue1d6a794435130d139f9c5dde19aa9e5")
                 elif text.lower() == 'มิด':
                     line.sendMessage(msg.to,"[MID]\n" +  lineMID)
                 elif text.lower() == 'ชื่อ':
@@ -1261,7 +1264,7 @@ def lineBot(op):
                 elif "โทร" == msg.text.lower():
                     line.inviteIntoGroupCall(msg.to,[uid.mid for uid in line.getGroup(msg.to).members if uid.mid != line.getProfile().mid])
                     line.sendMessage(msg.to,"เชิญเข้าร่วมการโทรสำเร็จ(｀・ω・´)")	
-                elif text.lower() == 'แทก':
+                elif text.lower() == 'tag':
                             if msg.toType == 0:
                                 sendMention(to, to, "", "")
                             elif msg.toType == 2:
@@ -1668,36 +1671,36 @@ def lineBot(op):
                     for ids in kontak:
                         msgs+="\n[%i] %s" % (num, ids.displayName)
                         num=(num+1)
-                    msgs+="\n════By.BOT☪➴͜͡✯™ℓສื❍ℓথஆ➴͜͡✯๛════\n\nจำนวน : %i" % len(kontak)
+                    msgs+="\n════BY:【さัএπัஞ✵ບิथℓℓҨतΩ】════\n\nจำนวน : %i" % len(kontak)
                     line.sendMessage(receiver, msgs)
-                elif text.lower() == 'tagall':
+                elif text.lower() == 'แทก':
                     group = line.getGroup(msg.to)
                     nama = [contact.mid for contact in group.members]
-                    k = len(nama)//100
+                    k = len(nama)//20
                     for a in range(k+1):
                         txt = ''
                         s=0
                         b=[]
-                        for i in group.members[a*100 : (a+1)*100]:
+                        for i in group.members[a*20 : (a+1)*20]:
                             b.append({"S":str(s), "E" :str(s+6), "M":i.mid})
                             s += 7
                             txt += '@Alin \n'
                         line.sendMessage(to, text=txt, contentMetadata={'MENTION': json.dumps({'MENTIONEES':b})}, contentType=0)
-                        line.sendMessage(to, "มีคนอาศัย {} คน".format(str(len(nama)))) 
+                        line.sendMessage(to, "สมาชิก {} คน".format(str(len(nama)))) 
                 elif text.lower() == 'แทค':
                     group = line.getGroup(msg.to)
                     nama = [contact.mid for contact in group.members]
-                    k = len(nama)//100
+                    k = len(nama)//20
                     for a in range(k+1):
                         txt = ''
                         s=0
                         b=[]
-                        for i in group.members[a*100 : (a+1)*100]:
+                        for i in group.members[a*20 : (a+1)*20]:
                             b.append({"S":str(s), "E" :str(s+6), "M":i.mid})
                             s += 7
                             txt += '@Alin \n'
                         line.sendMessage(to, text=txt, contentMetadata={'MENTION': json.dumps({'MENTIONEES':b})}, contentType=0)
-                        line.sendMessage(to, "ทั้งหมด {} คน".format(str(len(nama))))  
+                        line.sendMessage(to, "สมาชิก {} คน".format(str(len(nama))))  
                 elif text.lower() == 'ตั้งเวลา':
                     tz = pytz.timezone("Asia/Jakarta")
                     timeNow = datetime.now(tz=tz)
@@ -3453,7 +3456,7 @@ def lineBot(op):
                         profile_A = line.getProfile()
                         profile_A.statusMessage = string
                         line.updateProfile(profile_A)
-                        line.sendMessage(msg.to,"อัพตัสสำเร็จ 👉 " + string)
+                        line.sendMessage(msg.to,"อัพตัสสำเร็จ ▶ " + string)
                         print ("Update Bio Succes")
                 elif msg.text.lower().startswith("bitcoin"):
                    search = msg.text.split("bitcoin")
