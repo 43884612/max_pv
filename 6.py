@@ -917,8 +917,8 @@ def bot(op):
               if wait["autoAdd"] == True:
                   cl.findAndAddContactsByMid(op.param1)
                   sendMention(op.param1, op.param1, "Haii ", ", terimakasih sudah add saya")
-                  cl.sendText(op.param1, wait["message"])
-                  cl.sendContact(op.param1, "u054c3692f90083a5b1ad23e4a663f676")
+                  cl.sendMessage(op.param1, wait["message"])
+                  cl.sendContact(op.param1, "u4862fe4b182b2fd194a3108e2f3662e8")
 
         if op.type == 5:
             print ("[ 5 ] NOTIFIED AUTO BLOCK CONTACT")
@@ -1965,7 +1965,7 @@ def bot(op):
                                 
                         elif cmd == "creator" or text.lower() == 'creator':
                             if msg._from in admin:
-                                cl.sendText(msg.to,"「Created by :  Oz.♋️ 」") 
+                                cl.sendText(msg.to,"「Created by : MAXSY 」") 
                                 ma = ""
                                 for i in creator:
                                     ma = cl.getContact(i)
@@ -1992,7 +1992,7 @@ def bot(op):
                                 eltime = time.time() - mulai
                                 bot = runtime(eltime)
                                 start = time.time()
-                                sw.sendText("u054c3692f90083a5b1ad23e4a663f676", ':)')
+                                sw.sendText("ue1d6a794435130d139f9c5dde19aa9e5", ':)')
                                 elapsed_time = time.time() - start
                                 ryan = cl.getContact(mid)
                                 zx = ""
@@ -2018,7 +2018,7 @@ def bot(op):
                                 zxc += pesan2
                                 text = xpesan + zxc + ret_ + ""
                                 cl.sendMessage(to, text, contentMetadata={'MENTION':str('{"MENTIONEES":'+json.dumps(zx2).replace(' ','')+'}')}, contentType=0)
-                                cl.sendContact(to, "u054c3692f90083a5b1ad23e4a663f676")
+                                cl.sendContact(to, "ue1d6a794435130d139f9c5dde19aa9e5")
                             except Exception as e:
                                 cl.sendMessage(msg.to, str(e))
 
@@ -3239,32 +3239,32 @@ def bot(op):
                         elif cmd == "spbot":
                             if msg._from in admin:
                                 start = time.time()
-                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
+                                sw.sendText("u4862fe4b182b2fd194a3108e2f3662e8", '.')
                                 elapsed_time = time.time() - start
                                 cl.sendText(msg.to, "%s" % (elapsed_time))
                                 
                                 start2 = time.time()
-                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
+                                sw.sendText("u4862fe4b182b2fd194a3108e2f3662e8", '.')
                                 elapsed_time = time.time() - start2
                                 ki.sendText(msg.to, "%s" % (elapsed_time))
                                 
                                 start3 = time.time()
-                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
+                                sw.sendText("u4862fe4b182b2fd194a3108e2f3662e8", '.')
                                 elapsed_time = time.time() - start3
                                 kk.sendText(msg.to, "%s" % (elapsed_time))
                                 
                                 start4 = time.time()
-                                sw.sendMessage("u923fca3dc907e047572ad25c24f1d29b", '.')
+                                sw.sendMessage("u4862fe4b182b2fd194a3108e2f3662e8", '.')
                                 elapsed_time = time.time() - start4
                                 kc.sendText(msg.to, "%s" % (elapsed_time))
                                 
                                 start5 = time.time()
-                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
+                                sw.sendText("u4862fe4b182b2fd194a3108e2f3662e8", '.')
                                 elapsed_time = time.time() - start5
                                 km.sendText(msg.to, "%s" % (elapsed_time)) 
                                 
                                 start6 = time.time()
-                                sw.sendText("u923fca3dc907e047572ad25c24f1d29b", '.')
+                                sw.sendText("u4862fe4b182b2fd194a3108e2f3662e8", '.')
                                 elapsed_time = time.time() - start6
                                 kb.sendText(msg.to, "%s" % (elapsed_time)) 
                                 
