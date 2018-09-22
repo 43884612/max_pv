@@ -83,10 +83,10 @@ responsename7 = sw.getProfile().displayName
 
 print("---LOGIN SUCCES---")
 
-creator = ["u054c3692f90083a5b1ad23e4a663f676"]
-owner = ["u054c3692f90083a5b1ad23e4a663f676"]
-admin = ["u054c3692f90083a5b1ad23e4a663f676"]
-staff = ["u054c3692f90083a5b1ad23e4a663f676"]
+creator = ["ue1d6a794435130d139f9c5dde19aa9e5"]
+owner = ["ue1d6a794435130d139f9c5dde19aa9e5"]
+admin = ["ue1d6a794435130d139f9c5dde19aa9e5"]
+staff = ["ue1d6a794435130d139f9c5dde19aa9e5"]
 
 KAC = [cl,ki,kk,kc,km,kb]
 ABC = [ki,kk,kc,km,kb]
@@ -172,10 +172,10 @@ wait = {
     'autoAdd':False,
     'autoBlock':False,
     'Timeline':False,
-    'like': False,
+    'like': True,
     'autoLeave':False,
     'autoLeave1':False,
-    "detectMention":False,
+    "detectMention":True,
     "mentionKick":False,
     "welcomeOn":False,
     "stickerOn":False,
@@ -206,7 +206,7 @@ wait = {
     "Respontag":"Sekarang tag besok jatuh cinta... ",
     "welcome":"Welcome...",
     "leave":"See you next againt later...",
-    "comment":"Super Like by: Bot...",
+    "comment":"Super Like by: SELFBOT-BY:MAX",
     "message":"Ready bots Protection \nProteCT your Groups...",
     }
 
@@ -532,11 +532,11 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "• Gunakan「 " + key + " 」di depannya\n\n" + \
-                  "「✭」 " + key + "Me\n" + \
-                  "「✭」 " + key + "Mid「@」\n" + \
-                  "「✭」 " + key + "Steal「@」\n" + \
-                  "「✭」 " + key + "Cover「@」\n" + \
-                  "「✭」 " + key + "Clone「@」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Me\n" + \
+                  "╠ ✯͜͡❂ " + key + "Mid「@」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Steal「@」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Cover「@」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Clone「@」\n" + \
                   "「✭」 " + key + "Restore\n" + \
                   "「✭」 " + key + "Reject\n" + \
                   "「✭」 " + key + "Mybot\n" + \
