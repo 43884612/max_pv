@@ -531,7 +531,7 @@ def atend():
 def help():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage = "• Gunakan「 " + key + " 」di depannya\n\n" + \
+    helpMessage = "╔═════════════════\n╠ 【さัএπัஞ✵ບิथℓℓҨतΩ】\n╚═════════════════\n╔═════════════════\n" + \
                   "╠ ✯͜͡❂ " + key + "Me\n" + \
                   "╠ ✯͜͡❂ " + key + "Mid「@」\n" + \
                   "╠ ✯͜͡❂ " + key + "Steal「@」\n" + \
@@ -574,7 +574,7 @@ def help():
                   "╠ ✯͜͡❂ " + key + "Setkey「New Key」\n" + \
                   "╠ ✯͜͡❂ " + key + "Mykey\n" + \
                   "╠ ✯͜͡❂ " + key + "Resetkey\n" + \
-                  "\n「 Turn In Media 」\n• Use「 " + key + " 」di depannya\n\n" + \
+                  "╚═════════════════\n╔═════════════════\n╠ 「 Turn In Media 」\n╚═════════════════\n╔═════════════════\n" + \
                   "╠ ✯͜͡❂ " + key + "Kode wilayah\n" + \
                   "╠ ✯͜͡❂ " + key + "Listmp3\n" + \
                   "╠ ✯͜͡❂ " + key + "Listvideo\n" + \
@@ -613,7 +613,7 @@ def help():
                   "╠ ✯͜͡❂ " + key + "Get-lirik「Judul Lagu」\n" + \
                   "╠ ✯͜͡❂ " + key + "Get-instagram「User Name」\n" + \
                   "╠ ✯͜͡❂ " + key + "Get-date「tgl-bln-thn」\n" + \
-                  "\n「 Setting Protection 」\n• Use「 " + key + " 」di depannya\n\n" + \
+                  "╚═════════════════\n╔═════════════════\n╠「 Setting Protection 」\n╚═════════════════\n╔═════════════════\n" + \
                   "╠ ✯͜͡❂ " + key + "Notag「on/off」\n" + \
                   "╠ ✯͜͡❂ " + key + "Allprotect「on/off」\n" + \
                   "╠ ✯͜͡❂ " + key + "Protecturl「on/off」\n" + \
@@ -623,12 +623,12 @@ def help():
                   "╠ ✯͜͡❂ " + key + "Protectcancel「on/off」\n" + \
                   "╠ ✯͜͡❂ " + key + "Protectantijs「on/off」\n" + \
                   "╠ ✯͜͡❂ " + key + "Ghost「on/off」\n" + \
-                  "\n「 Setting Kicker 」\n• Use「 " + key + " 」di depannya\n\n" + \
+                  "╚═════════════════\n╔═════════════════\n╠「 Setting Kicker 」\n╚═════════════════\n╔═════════════════\n" + \
                   "╠ ✯͜͡❂ " + key + "Kick「on/off」\n" + \
                   "╠ ✯͜͡❂ " + key + "Nk「@」\n" + \
                   "╠ ✯͜͡❂ " + key + "Kick「@」\n" + \
                   "╠ ✯͜͡❂ " + key + "Kickall \n" + \
-                  "\n「 Setting User 」\n• Use「 " + key + " 」di depannya\n\n" + \
+                  "╚═════════════════\n╔═════════════════\n╠「 Setting User 」\n╚═════════════════\n╔═════════════════\n" + \
                   "╠ ✯͜͡❂ " + key + "Invite「on/off」\n" + \
                   "╠ ✯͜͡❂ " + key + "Sticker「on/off」\n" + \
                   "╠ ✯͜͡❂ " + key + "Unsend「on/off」\n" + \
@@ -640,7 +640,7 @@ def help():
                   "╠ ✯͜͡❂ " + key + "Welcome「on/off」\n" + \
                   "╠ ✯͜͡❂ " + key + "Autoleave「on/off」\n" + \
                   "╠ ✯͜͡❂ " + key + "Jointicket「on/off」\n" + \
-                  "\n「 For Admin 」\n• Use「 " + key + " 」di depannya\n\n" + \
+                  "╚═════════════════\n╔═════════════════\n╠「 For Admin 」\n╚═════════════════\n╔═════════════════\n" + \
                   "╠ ✯͜͡❂ " + key + "Selfbot「on/off」\n" + \
                   "╠ ✯͜͡❂ " + key + "Bot:on\n" + \
                   "╠ ✯͜͡❂ " + key + "Bot:expell\n" + \
@@ -658,13 +658,13 @@ def help():
                   "╠ ✯͜͡❂ " + key + "Listbot\n" + \
                   "╠ ✯͜͡❂ " + key + "Listadmin\n" + \
                   "╠ ✯͜͡❂ " + key + "Listprotect\n" + \
-                  "\nKetik「 Refresh 」jika sudah\nmenggunakan command diatas...\n"
+                  "╚═════════════════\n╔═════════════════\n╠「 SELFBOT-BY:MAX 」\n╚═════════════════\n"
     return helpMessage
 
 def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
-    helpMessage1 = "• Gunakan「 " + key + " 」di depannya\n\n" + \
+    helpMessage1 = "╔═════════════════\n╠ 【さัএπัஞ✵ບิथℓℓҨतΩ】\n╚═════════════════\n╔═════════════════\n" + \
                   "╠ ✯͜͡❂ " + key + "Blc\n" + \
                   "╠ ✯͜͡❂ " + key + "Ban:on\n" + \
                   "╠ ✯͜͡❂ " + key + "Unban:on\n" + \
@@ -678,7 +678,7 @@ def helpbot():
                   "╠ ✯͜͡❂ " + key + "Talkbanlist\n" + \
                   "╠ ✯͜͡❂ " + key + "Clearban\n" + \
                   "╠ ✯͜͡❂ " + key + "Refresh\n" + \
-                  "\n「 Check Settings 」\n• Use「 " + key + " 」di depannya\n\n" + \
+                  "╚═════════════════\n╔═════════════════\n╠「 Check Settings 」\n╚═════════════════\n╔═════════════════\n" + \
                   "╠ ✯͜͡❂ " + key + "Cek sider\n" + \
                   "╠ ✯͜͡❂ " + key + "Cek spam\n" + \
                   "╠ ✯͜͡❂ " + key + "Cek pesan \n" + \
@@ -704,7 +704,7 @@ def helpbot():
                   "╠ ✯͜͡❂ " + key + "Bot5up「Kirim fotonya」\n" + \
                   "╠ ✯͜͡❂ " + key + "Gift:「Mid korban」「Jumlah」\n" + \
                   "╠ ✯͜͡❂ " + key + "Spam:「Mid korban」「Jumlah」\n" + \
-                  "\nKetik「 Refresh 」jika sudah\nmenggunakan command diatas...\n"
+                  "╚═════════════════\n╔═════════════════\n╠「 SELFBOT-BY:MAX 」\n╚═════════════════\n"
     return helpMessage1
 
 def bot(op):
