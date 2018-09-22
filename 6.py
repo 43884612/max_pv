@@ -537,127 +537,127 @@ def help():
                   "╠ ✯͜͡❂ " + key + "Steal「@」\n" + \
                   "╠ ✯͜͡❂ " + key + "Cover「@」\n" + \
                   "╠ ✯͜͡❂ " + key + "Clone「@」\n" + \
-                  "「✭」 " + key + "Restore\n" + \
-                  "「✭」 " + key + "Reject\n" + \
-                  "「✭」 " + key + "Mybot\n" + \
-                  "「✭」 " + key + "Setting\n" + \
-                  "「✭」 " + key + "About\n" + \
-                  "「✭」 " + key + "Restart\n" + \
-                  "「✭」 " + key + "Runtime\n" + \
-                  "「✭」 " + key + "Creator\n" + \
-                  "「✭」 " + key + "Speed/Sp\n" + \
-                  "「✭」 " + key + "Respontime\n" + \
-                  "「✭」 " + key + "Tagall\n" + \
-                  "「✭」 " + key + "Joinall\n" + \
-                  "「✭」 " + key + "Byeall\n" + \
-                  "「✭」 " + key + "Bye me\n" + \
-                  "「✭」 " + key + "Leave「Namagrup」\n" + \
-                  "「✭」 " + key + "Ginfo\n" + \
-                  "「✭」 " + key + "Open\n" + \
-                  "「✭」 " + key + "Close\n" + \
-                  "「✭」 " + key + "Url\n" + \
-                  "「✭」 " + key + "Gruplist\n" + \
-                  "「✭」 " + key + "Open「nomer」\n" + \
-                  "「✭」 " + key + "Close「nomer」\n" + \
-                  "「✭」 " + key + "Infogrup「nomer」\n" + \
-                  "「✭」 " + key + "Infomem「nomer」\n" + \
-                  "「✭」 " + key + "Joinall「nomer」\n" + \
-                  "「✭」 " + key + "Leaveall「nomer」\n" + \
-                  "「✭」 " + key + "Remove chat\n" + \
-                  "「✭」 " + key + "Lurking「on/off」\n" + \
-                  "「✭」 " + key + "Lurkers\n" + \
-                  "「✭」 " + key + "Sider「on/off」\n" + \
-                  "「✭」 " + key + "Updatefoto\n" + \
-                  "「✭」 " + key + "Updategrup\n" + \
-                  "「✭」 " + key + "Updatebot\n" + \
-                  "「✭」 " + key + "Broadcast:「Text」\n" + \
-                  "「✭」 " + key + "Setkey「New Key」\n" + \
-                  "「✭」 " + key + "Mykey\n" + \
-                  "「✭」 " + key + "Resetkey\n" + \
+                  "╠ ✯͜͡❂ " + key + "Restore\n" + \
+                  "╠ ✯͜͡❂ " + key + "Reject\n" + \
+                  "╠ ✯͜͡❂ " + key + "Mybot\n" + \
+                  "╠ ✯͜͡❂ " + key + "Setting\n" + \
+                  "╠ ✯͜͡❂ " + key + "About\n" + \
+                  "╠ ✯͜͡❂ " + key + "Restart\n" + \
+                  "╠ ✯͜͡❂ " + key + "Runtime\n" + \
+                  "╠ ✯͜͡❂ " + key + "Creator\n" + \
+                  "╠ ✯͜͡❂ " + key + "Speed/Sp\n" + \
+                  "╠ ✯͜͡❂ " + key + "Respontime\n" + \
+                  "╠ ✯͜͡❂ " + key + "Tagall\n" + \
+                  "╠ ✯͜͡❂ " + key + "Joinall\n" + \
+                  "╠ ✯͜͡❂ " + key + "Byeall\n" + \
+                  "╠ ✯͜͡❂ " + key + "Bye me\n" + \
+                  "╠ ✯͜͡❂ " + key + "Leave「Namagrup」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Ginfo\n" + \
+                  "╠ ✯͜͡❂ " + key + "Open\n" + \
+                  "╠ ✯͜͡❂ " + key + "Close\n" + \
+                  "╠ ✯͜͡❂ " + key + "Url\n" + \
+                  "╠ ✯͜͡❂ " + key + "Gruplist\n" + \
+                  "╠ ✯͜͡❂ " + key + "Open「nomer」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Close「nomer」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Infogrup「nomer」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Infomem「nomer」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Joinall「nomer」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Leaveall「nomer」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Remove chat\n" + \
+                  "╠ ✯͜͡❂ " + key + "Lurking「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Lurkers\n" + \
+                  "╠ ✯͜͡❂ " + key + "Sider「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Updatefoto\n" + \
+                  "╠ ✯͜͡❂ " + key + "Updategrup\n" + \
+                  "╠ ✯͜͡❂ " + key + "Updatebot\n" + \
+                  "╠ ✯͜͡❂ " + key + "Broadcast:「Text」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Setkey「New Key」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Mykey\n" + \
+                  "╠ ✯͜͡❂ " + key + "Resetkey\n" + \
                   "\n「 Turn In Media 」\n• Use「 " + key + " 」di depannya\n\n" + \
-                  "「✭」 " + key + "Kode wilayah\n" + \
-                  "「✭」 " + key + "Listmp3\n" + \
-                  "「✭」 " + key + "Listvideo\n" + \
-                  "「✭」 " + key + "Listimage\n" + \
-                  "「✭」 " + key + "Liststicker\n" + \
-                  "「✭」 " + key + "Addimg「Teks」\n" + \
-                  "「✭」 " + key + "Dellimg「Teks」\n" + \
-                  "「✭」 " + key + "Addmp3「Teks」\n" + \
-                  "「✭」 " + key + "Dellmp3「Teks」\n" + \
-                  "「✭」 " + key + "Addvideo「Teks」\n" + \
-                  "「✭」 " + key + "Dellvideo「Teks」\n" + \
-                  "「✭」 " + key + "Addsticker「Teks」\n" + \
-                  "「✭」 " + key + "Dellsticker「Teks」\n" + \
-                  "「✭」 " + key + "Spamtag:「jumlahnya」\n" + \
-                  "「✭」 " + key + "Spamtag「@」\n" + \
-                  "「✭」 " + key + "Spamcall:「jumlahnya」\n" + \
-                  "「✭」 " + key + "Spamcall\n" + \
-                  "「✭」 " + key + "Ytmp3:「Judul Lagu」\n" + \
-                  "「✭」 " + key + "Ytmp4:「Judul Video」\n" + \
-                  "「✭」 " + key + "Musik「Nama Penyanyi」\n" + \
-                  "「✭」 " + key + "Get-fs「Query」\n" + \
-                  "「✭」 " + key + "Get-line「ID Line」\n" + \
-                  "「✭」 " + key + "Get-apk「Query」\n" + \
-                  "「✭」 " + key + "Get-gif「Query」\n" + \
-                  "「✭」 " + key + "Get-xxx「Query」\n" + \
-                  "「✭」 " + key + "Get-anime「Query」\n" + \
-                  "「✭」 " + key + "Get-mimpi「Query」\n" + \
-                  "「✭」 " + key + "Get-audio「Query」\n" + \
-                  "「✭」 " + key + "Get-mp3「Query」\n" + \
-                  "「✭」 " + key + "Get-video「Query」\n" + \
-                  "「✭」 " + key + "Get-bintang「Zodiak」\n" + \
-                  "「✭」 " + key + "Get-zodiak「Zodiak」\n" + \
-                  "「✭」 " + key + "Get-sholat「Nama Kota」\n" + \
-                  "「✭」 " + key + "Get-cuaca「Nama Kota」\n" + \
-                  "「✭」 " + key + "Get-lokasi「Nama Kota」\n" + \
-                  "「✭」 " + key + "Get-lirik「Judul Lagu」\n" + \
-                  "「✭」 " + key + "Get-instagram「User Name」\n" + \
-                  "「✭」 " + key + "Get-date「tgl-bln-thn」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Kode wilayah\n" + \
+                  "╠ ✯͜͡❂ " + key + "Listmp3\n" + \
+                  "╠ ✯͜͡❂ " + key + "Listvideo\n" + \
+                  "╠ ✯͜͡❂ " + key + "Listimage\n" + \
+                  "╠ ✯͜͡❂ " + key + "Liststicker\n" + \
+                  "╠ ✯͜͡❂ " + key + "Addimg「Teks」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Dellimg「Teks」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Addmp3「Teks」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Dellmp3「Teks」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Addvideo「Teks」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Dellvideo「Teks」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Addsticker「Teks」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Dellsticker「Teks」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Spamtag:「jumlahnya」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Spamtag「@」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Spamcall:「jumlahnya」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Spamcall\n" + \
+                  "╠ ✯͜͡❂ " + key + "Ytmp3:「Judul Lagu」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Ytmp4:「Judul Video」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Musik「Nama Penyanyi」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Get-fs「Query」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Get-line「ID Line」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Get-apk「Query」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Get-gif「Query」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Get-xxx「Query」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Get-anime「Query」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Get-mimpi「Query」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Get-audio「Query」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Get-mp3「Query」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Get-video「Query」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Get-bintang「Zodiak」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Get-zodiak「Zodiak」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Get-sholat「Nama Kota」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Get-cuaca「Nama Kota」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Get-lokasi「Nama Kota」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Get-lirik「Judul Lagu」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Get-instagram「User Name」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Get-date「tgl-bln-thn」\n" + \
                   "\n「 Setting Protection 」\n• Use「 " + key + " 」di depannya\n\n" + \
-                  "「✭」 " + key + "Notag「on/off」\n" + \
-                  "「✭」 " + key + "Allprotect「on/off」\n" + \
-                  "「✭」 " + key + "Protecturl「on/off」\n" + \
-                  "「✭」 " + key + "Protectjoin「on/off」\n" + \
-                  "「✭」 " + key + "Protectkick「on/off」\n" + \
-                  "「✭」 " + key + "Protectinvite「on/off」\n" + \
-                  "「✭」 " + key + "Protectcancel「on/off」\n" + \
-                  "「✭」 " + key + "Protectantijs「on/off」\n" + \
-                  "「✭」 " + key + "Ghost「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Notag「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Allprotect「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Protecturl「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Protectjoin「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Protectkick「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Protectinvite「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Protectcancel「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Protectantijs「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Ghost「on/off」\n" + \
                   "\n「 Setting Kicker 」\n• Use「 " + key + " 」di depannya\n\n" + \
-                  "「✭」 " + key + "Kick「on/off」\n" + \
-                  "「✭」 " + key + "Nk「@」\n" + \
-                  "「✭」 " + key + "Kick「@」\n" + \
-                  "「✭」 " + key + "Kickall \n" + \
+                  "╠ ✯͜͡❂ " + key + "Kick「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Nk「@」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Kick「@」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Kickall \n" + \
                   "\n「 Setting User 」\n• Use「 " + key + " 」di depannya\n\n" + \
-                  "「✭」 " + key + "Invite「on/off」\n" + \
-                  "「✭」 " + key + "Sticker「on/off」\n" + \
-                  "「✭」 " + key + "Unsend「on/off」\n" + \
-                  "「✭」 " + key + "Respontime「on/off」\n" + \
-                  "「✭」 " + key + "Timeline「on/off」\n" + \
-                  "「✭」 " + key + "Contact「on/off」\n" + \
-                  "「✭」 " + key + "Autojoin「on/off」\n" + \
-                  "「✭」 " + key + "Autoadd「on/off」\n" + \
-                  "「✭」 " + key + "Welcome「on/off」\n" + \
-                  "「✭」 " + key + "Autoleave「on/off」\n" + \
-                  "「✭」 " + key + "Jointicket「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Invite「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Sticker「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Unsend「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Respontime「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Timeline「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Contact「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Autojoin「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Autoadd「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Welcome「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Autoleave「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Jointicket「on/off」\n" + \
                   "\n「 For Admin 」\n• Use「 " + key + " 」di depannya\n\n" + \
-                  "「✭」 " + key + "Selfbot「on/off」\n" + \
-                  "「✭」 " + key + "Bot:on\n" + \
-                  "「✭」 " + key + "Bot:expell\n" + \
-                  "「✭」 " + key + "Staff:on\n" + \
-                  "「✭」 " + key + "Staff:expell\n" + \
-                  "「✭」 " + key + "Admin:on\n" + \
-                  "「✭」 " + key + "Admin:expell\n" + \
-                  "「✭」 " + key + "Botadd「@」\n" + \
-                  "「✭」 " + key + "Botdell「@」\n" + \
-                  "「✭」 " + key + "Staffadd「@」\n" + \
-                  "「✭」 " + key + "Staffdell「@」\n" + \
-                  "「✭」 " + key + "Adminadd「@」\n" + \
-                  "「✭」 " + key + "Admindell「@」\n" + \
-                  "「✭」 " + key + "Refresh\n" + \
-                  "「✭」 " + key + "Listbot\n" + \
-                  "「✭」 " + key + "Listadmin\n" + \
-                  "「✭」 " + key + "Listprotect\n" + \
+                  "╠ ✯͜͡❂ " + key + "Selfbot「on/off」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Bot:on\n" + \
+                  "╠ ✯͜͡❂ " + key + "Bot:expell\n" + \
+                  "╠ ✯͜͡❂ " + key + "Staff:on\n" + \
+                  "╠ ✯͜͡❂ " + key + "Staff:expell\n" + \
+                  "╠ ✯͜͡❂ " + key + "Admin:on\n" + \
+                  "╠ ✯͜͡❂ " + key + "Admin:expell\n" + \
+                  "╠ ✯͜͡❂ " + key + "Botadd「@」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Botdell「@」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Staffadd「@」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Staffdell「@」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Adminadd「@」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Admindell「@」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Refresh\n" + \
+                  "╠ ✯͜͡❂ " + key + "Listbot\n" + \
+                  "╠ ✯͜͡❂ " + key + "Listadmin\n" + \
+                  "╠ ✯͜͡❂ " + key + "Listprotect\n" + \
                   "\nKetik「 Refresh 」jika sudah\nmenggunakan command diatas...\n"
     return helpMessage
 
@@ -665,45 +665,45 @@ def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage1 = "• Gunakan「 " + key + " 」di depannya\n\n" + \
-                  "「✭」 " + key + "Blc\n" + \
-                  "「✭」 " + key + "Ban:on\n" + \
-                  "「✭」 " + key + "Unban:on\n" + \
-                  "「✭」 " + key + "Ban「@」\n" + \
-                  "「✭」 " + key + "Unban「@」\n" + \
-                  "「✭」 " + key + "Talkban「@」\n" + \
-                  "「✭」 " + key + "Untalkban「@」\n" + \
-                  "「✭」 " + key + "Talkban:on\n" + \
-                  "「✭」 " + key + "Untalkban:on\n" + \
-                  "「✭」 " + key + "Banlist\n" + \
-                  "「✭」 " + key + "Talkbanlist\n" + \
-                  "「✭」 " + key + "Clearban\n" + \
-                  "「✭」 " + key + "Refresh\n" + \
+                  "╠ ✯͜͡❂ " + key + "Blc\n" + \
+                  "╠ ✯͜͡❂ " + key + "Ban:on\n" + \
+                  "╠ ✯͜͡❂ " + key + "Unban:on\n" + \
+                  "╠ ✯͜͡❂ " + key + "Ban「@」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Unban「@」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Talkban「@」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Untalkban「@」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Talkban:on\n" + \
+                  "╠ ✯͜͡❂ " + key + "Untalkban:on\n" + \
+                  "╠ ✯͜͡❂ " + key + "Banlist\n" + \
+                  "╠ ✯͜͡❂ " + key + "Talkbanlist\n" + \
+                  "╠ ✯͜͡❂ " + key + "Clearban\n" + \
+                  "╠ ✯͜͡❂ " + key + "Refresh\n" + \
                   "\n「 Check Settings 」\n• Use「 " + key + " 」di depannya\n\n" + \
-                  "「✭」 " + key + "Cek sider\n" + \
-                  "「✭」 " + key + "Cek spam\n" + \
-                  "「✭」 " + key + "Cek pesan \n" + \
-                  "「✭」 " + key + "Cek respon \n" + \
-                  "「✭」 " + key + "Cek leave\n" + \
-                  "「✭」 " + key + "Cek welcome\n" + \
-                  "「✭」 " + key + "Set sider:「Text」\n" + \
-                  "「✭」 " + key + "Set spam:「Text」\n" + \
-                  "「✭」 " + key + "Set pesan:「Text」\n" + \
-                  "「✭」 " + key + "Set respon:「Text」\n" + \
-                  "「✭」 " + key + "Set leave:「Text」\n" + \
-                  "「✭」 " + key + "Set welcome:「Text」\n" + \
-                  "「✭」 " + key + "Myname:「Nama」\n" + \
-                  "「✭」 " + key + "Bot1name:「Nama」\n" + \
-                  "「✭」 " + key + "Bot2name:「Nama」\n" + \
-                  "「✭」 " + key + "Bot3name:「Nama」\n" + \
-                  "「✭」 " + key + "Bot4name:「Nama」\n" + \
-                  "「✭」 " + key + "Bot5name:「Nama」\n" + \
-                  "「✭」 " + key + "Bot1up「Kirim fotonya」\n" + \
-                  "「✭」 " + key + "Bot2up「Kirim fotonya」\n" + \
-                  "「✭」 " + key + "Bot3up「Kirim fotonya」\n" + \
-                  "「✭」 " + key + "Bot4up「Kirim fotonya」\n" + \
-                  "「✭」 " + key + "Bot5up「Kirim fotonya」\n" + \
-                  "「✭」 " + key + "Gift:「Mid korban」「Jumlah」\n" + \
-                  "「✭」 " + key + "Spam:「Mid korban」「Jumlah」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Cek sider\n" + \
+                  "╠ ✯͜͡❂ " + key + "Cek spam\n" + \
+                  "╠ ✯͜͡❂ " + key + "Cek pesan \n" + \
+                  "╠ ✯͜͡❂ " + key + "Cek respon \n" + \
+                  "╠ ✯͜͡❂ " + key + "Cek leave\n" + \
+                  "╠ ✯͜͡❂ " + key + "Cek welcome\n" + \
+                  "╠ ✯͜͡❂ " + key + "Set sider:「Text」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Set spam:「Text」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Set pesan:「Text」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Set respon:「Text」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Set leave:「Text」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Set welcome:「Text」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Myname:「Nama」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Bot1name:「Nama」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Bot2name:「Nama」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Bot3name:「Nama」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Bot4name:「Nama」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Bot5name:「Nama」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Bot1up「Kirim fotonya」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Bot2up「Kirim fotonya」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Bot3up「Kirim fotonya」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Bot4up「Kirim fotonya」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Bot5up「Kirim fotonya」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Gift:「Mid korban」「Jumlah」\n" + \
+                  "╠ ✯͜͡❂ " + key + "Spam:「Mid korban」「Jumlah」\n" + \
                   "\nKetik「 Refresh 」jika sudah\nmenggunakan command diatas...\n"
     return helpMessage1
 
