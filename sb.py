@@ -321,7 +321,7 @@ def clBot(op):
                         cl.sendMessage(msg.to, str(e))
                 elif text.lower() == 'status':
                     try:
-                        ret_ = "━━━┅═❉ই۝ई❉═┅━━━━\n          ❇    STATUS    ❇\n╭━━━━━━━━━━━━━\n║╭❉ 🔵[ON]|[OFF]🔴 ❇\n║┝────────────"
+                        ret_ = "━━━┅═❉ই۝ई❉═┅━━━\n          ❇    STATUS    ❇\n╭━━━━━━━━━━━━━\n║╭❉ 🔵[ON]|[OFF]🔴 ❇\n║┝────────────"
                         if settings["autoAdd"] == True: ret_ += "\n║│🔵 Auto Add [ON]"
                         else: ret_ += "\n║│🔴 Auto Add [OFF]"
                         if settings["autoJoin"] == True: ret_ += "\n║│🔵 Auto Join [ON]"
@@ -334,7 +334,7 @@ def clBot(op):
                         else: ret_ += "\n║│🔴 Notif [OFF]"
                         if settings["detectMention"] == True: ret_ += "\n║│🔵 Detect Mention [ON]"
                         else: ret_ += "\n║│🔴 Detect Mention [OFF]"
-                        ret_ += "\n║┝────────────\n║╰❉【SELFBOT-BY:MAX】❇\n╰━━━━━━━━━━━━━\n━━━┅═❉ই۝ई❉═┅━━━━"
+                        ret_ += "\n║┝────────────\n║╰❉【SELFBOT-BY:MAX】❇\n╰━━━━━━━━━━━━━\n━━━┅═❉ই۝ई❉═┅━━━"
                         cl.sendMessage(to, str(ret_))
                     except Exception as e:
                         cl.sendMessage(msg.to, str(e))
