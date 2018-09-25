@@ -179,7 +179,7 @@ def backupData():
         return False
 
 def helpmessage():
-    helpMessage = "━━━━┅═❉ই۝ई❉═┅━━━━\n          ❇    SELFBOT    ❇\n╭━━━━━━━━━━━━━━━━\n║╭❉ MENU HELP ❇\n║┝───────────────" + "\n" + \
+    helpMessage = "━━━┅═❉ই۝ई❉═┅━━━\n          ❇    SELFBOT    ❇\n╭━━━━━━━━━━━━━\n║╭❉ MENU HELP ❇\n║┝────────────" + "\n" + \
                   "║┝──[❇ STATUS ❇ ]" + "\n" + \
                   "║│ Restart" + "\n" + \
                   "║│ Runtime" + "\n" + \
@@ -187,7 +187,7 @@ def helpmessage():
                   "║│ Status" + "\n" + \
                   "║│ About" + "\n" + \
                   "║│ Dell「Removechat」" + "\n" + \
-                  "║┝───────────────" + "\n" + \
+                  "║┝────────────" + "\n" + \
                   "║┝──[ ❇ SETTING ❇ ]" + "\n" + \
                   "║│ Allstatus「On/Off」" + "\n" + \
                   "║│ Notif「On/Off」" + "\n" + \
@@ -198,7 +198,7 @@ def helpmessage():
                   "║│ AutoRead「On/Off」" + "\n" + \
                   "║│ CheckSticker「On/Off」" + "\n" + \
                   "║│ DetectMention「On/Off」" + "\n" + \
-                  "║┝───────────────" + "\n" + \
+                  "║┝────────────" + "\n" + \
                   "║┝──[ ❇  SELF  ❇]" + "\n" + \
                   "║│ Me" + "\n" + \
                   "║│ MyMid" + "\n" + \
@@ -216,7 +216,7 @@ def helpmessage():
                   "║│ StealCover「@」" + "\n" + \
                   "║│ CloneProfile「@」" + "\n" + \
                   "║│ RestoreProfile" + "\n" + \
-                  "║┝───────────────" + "\n" + \
+                  "║┝────────────" + "\n" + \
                   "║┝──[ ❇ GROUP ❇ ]" + "\n" + \
                   "║│ GroupCreator" + "\n" + \
                   "║│ GroupId" + "\n" + \
@@ -234,11 +234,11 @@ def helpmessage():
                   "║│ Tag" + "\n" + \
                   "║│ Lurking「On/Off/Reset」" + "\n" + \
                   "║│ Lurking" + "\n" + \
-                  "║┝───────────────" + "\n" + \
+                  "║┝────────────" + "\n" + \
                   "║┝──[ ❇ MEDIA ❇]" + "\n" + \
                   "║│ Kalender" + "\n" + \
                   "║│ CheckDate「Date」" + "\n" + \
-                  "║┝───────────────\n║╰❉      DPK BOT      ❇\n╰━━━━━━━━━━━━━━━━\n━━━━┅═❉ই۝ई❉═┅━━━━"
+                  "║┝────────────\n║╰❉【SELFBOT-BY:MAX】❇\n╰━━━━━━━━━━━━━\n━━━┅═❉ই۝ई❉═┅━━━━"
     return helpMessage
     
 def clBot(op):
@@ -279,7 +279,7 @@ def clBot(op):
                 if text.lower() == 'help':
                     helpMessage = helpmessage()
                     cl.sendMessage(to, str(helpMessage))
-                    cl.sendContact(to, "ud296655acef67cbd5e8208e63629f78b")
+                    cl.sendContact(to, "ub8fd0c502d6d52c35d8bc6fcced407d0")
                 elif text.lower() == 'dell':
                     cl.removeAllMessages(op.param2)
                     cl.sendMessage(to, "Menghapus Chat")
@@ -301,7 +301,7 @@ def clBot(op):
                 elif text.lower() == 'about':
                     try:
                         arr = []
-                        owner = "ud296655acef67cbd5e8208e63629f78b"
+                        owner = "ub8fd0c502d6d52c35d8bc6fcced407d0"
                         creator = cl.getContact(owner)
                         contact = cl.getContact(clMID)
                         grouplist = cl.getGroupIdsJoined()
@@ -313,7 +313,7 @@ def clBot(op):
                         ret_ += "\n╠ Friend : {}".format(str(len(contactlist)))
                         ret_ += "\n╠ Blocked : {}".format(str(len(blockedlist)))
                         ret_ += "\n╠══[ About Selfbot ]"
-                        ret_ += "\n╠ Version : Free"
+                        ret_ += "\n╠ Version : MaxSy"
                         ret_ += "\n╠ Creator : {}".format(creator.displayName)
                         ret_ += "\n╚══[ SELFBOT ]"
                         cl.sendMessage(to, str(ret_))
@@ -321,7 +321,7 @@ def clBot(op):
                         cl.sendMessage(msg.to, str(e))
                 elif text.lower() == 'status':
                     try:
-                        ret_ = "━━━━┅═❉ই۝ई❉═┅━━━━\n          ❇    STATUS    ❇\n╭━━━━━━━━━━━━━━━━\n║╭❉ 🔵[ON]|[OFF]🔴 ❇\n║┝───────────────"
+                        ret_ = "━━━┅═❉ই۝ई❉═┅━━━━\n          ❇    STATUS    ❇\n╭━━━━━━━━━━━━━\n║╭❉ 🔵[ON]|[OFF]🔴 ❇\n║┝────────────"
                         if settings["autoAdd"] == True: ret_ += "\n║│🔵 Auto Add [ON]"
                         else: ret_ += "\n║│🔴 Auto Add [OFF]"
                         if settings["autoJoin"] == True: ret_ += "\n║│🔵 Auto Join [ON]"
@@ -334,7 +334,7 @@ def clBot(op):
                         else: ret_ += "\n║│🔴 Notif [OFF]"
                         if settings["detectMention"] == True: ret_ += "\n║│🔵 Detect Mention [ON]"
                         else: ret_ += "\n║│🔴 Detect Mention [OFF]"
-                        ret_ += "\n║┝───────────────\n║╰❉      DPK BOT      ❇\n╰━━━━━━━━━━━━━━━━\n━━━━┅═❉ই۝ई❉═┅━━━━"
+                        ret_ += "\n║┝────────────\n║╰❉【SELFBOT-BY:MAX】❇\n╰━━━━━━━━━━━━━\n━━━┅═❉ই۝ई❉═┅━━━━"
                         cl.sendMessage(to, str(ret_))
                     except Exception as e:
                         cl.sendMessage(msg.to, str(e))
@@ -943,7 +943,7 @@ def clBot(op):
                         for mention in mentionees:
                             if clMID in mention["M"]:
                               if settings["detectMention"] == True:
-                                 sendMention(receiver, sender, "", " \nWoy kamu kesepian yak?? ")
+                                 sendMention(receiver, sender, "", " \nจะแทคหาพ่อมึงหรอ 😤")
 
         if op.type == 17:
            print ("MEMBER JOIN TO GROUP")
