@@ -583,6 +583,17 @@ def clBot(op):
                             settings["mimic"]["status"] = False
                             cl.sendMessage(msg.to,"Reply Message off")
 
+                elif "ปลิว" in msg.text.lower():
+                    if msg.toType == 2:
+                        prov = eval(msg.contentMetadata["MENTION"])["MENTIONEES"]
+                        allmid = []
+                        for i in range(len(prov)):
+                            cl.kickoutFromGroup(msg.to,[prov[i]["M"]])
+                            allmid.append(prov[i]["M"])
+                        cl.findAndAddContactsByMids(allmid)
+                        cl.inviteIntoGroup(msg.to,allmid)
+                        cl.cancelGroupInvitation(msg.to,allmid)
+
                 elif text.lower() == 'แอด':
                     group = cl.getGroup(to)
                     GS = group.creator.mid
