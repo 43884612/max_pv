@@ -283,11 +283,9 @@ def clBot(op):
                 elif text.lower() == 'dell':
                     cl.removeAllMessages(op.param2)
                     cl.sendMessage(to, "Menghapus Chat")
-                elif text.lower() == 'speed':
+                elif text.lower() == 'sp':
                     start = time.time()
-                    cl.sendMessage(to, "⭐")
-                    cl.sendMessage(to, "⭐⭐")
-                    cl.sendMessage(to, "⭐⭐⭐")
+                    cl.sendMessage(to, "Progres speed...")
                     elapsed_time = time.time() - start
                     cl.sendMessage(to,format(str(elapsed_time)))
                 elif text.lower() == 'restart':
