@@ -179,66 +179,74 @@ def backupData():
         return False
 
 def helpmessage():
-    helpMessage = "━━━┅═❉ই۝ई❉═┅━━━\n          ❇    SELFBOT    ❇\n╭━━━━━━━━━━━━━\n║╭❉ MENU HELP ❇\n║┝────────────" + "\n" + \
-                  "║┝──[❇ STATUS ❇ ]" + "\n" + \
-                  "║│ Restart" + "\n" + \
-                  "║│ Runtime" + "\n" + \
-                  "║│ Speed" + "\n" + \
-                  "║│ Status" + "\n" + \
-                  "║│ About" + "\n" + \
-                  "║│ Dell「Removechat」" + "\n" + \
-                  "║┝────────────" + "\n" + \
-                  "║┝──[ ❇ SETTING ❇ ]" + "\n" + \
-                  "║│ Allstatus「On/Off」" + "\n" + \
-                  "║│ Notif「On/Off」" + "\n" + \
-                  "║│ Sider「On/Off」" + "\n" + \
-                  "║│ AutoAdd「On/Off」" + "\n" + \
-                  "║│ AutoJoin「On/Off」" + "\n" + \
-                  "║│ AutoLeave「On/Off」" + "\n" + \
-                  "║│ AutoRead「On/Off」" + "\n" + \
-                  "║│ CheckSticker「On/Off」" + "\n" + \
-                  "║│ DetectMention「On/Off」" + "\n" + \
-                  "║┝────────────" + "\n" + \
-                  "║┝──[ ❇  SELF  ❇]" + "\n" + \
-                  "║│ Me" + "\n" + \
-                  "║│ MyMid" + "\n" + \
-                  "║│ MyName" + "\n" + \
-                  "║│ MyBio" + "\n" + \
-                  "║│ MyPicture" + "\n" + \
-                  "║│ MyVideoProfile" + "\n" + \
-                  "║│ MyCover" + "\n" + \
-                  "║│ StealContact「@」" + "\n" + \
-                  "║│ StealMid「@」" + "\n" + \
-                  "║│ StealName「@」" + "\n" + \
-                  "║│ StealBio「@」" + "\n" + \
-                  "║│ StealPicture「@」" + "\n" + \
-                  "║│ StealVideoProfile「@」" + "\n" + \
-                  "║│ StealCover「@」" + "\n" + \
-                  "║│ CloneProfile「@」" + "\n" + \
-                  "║│ RestoreProfile" + "\n" + \
-                  "║┝────────────" + "\n" + \
-                  "║┝──[ ❇ GROUP ❇ ]" + "\n" + \
-                  "║│ GroupCreator" + "\n" + \
-                  "║│ GroupId" + "\n" + \
-                  "║│ GroupName" + "\n" + \
-                  "║│ GroupPicture" + "\n" + \
-                  "║│ GroupTicket" + "\n" + \
-                  "║│ GroupTicket「On/Off」" + "\n" + \
-                  "║│ GroupList" + "\n" + \
-                  "║│ GroupMemberList" + "\n" + \
-                  "║│ GroupInfo" + "\n" + \
-                  "║│ Mimic「On/Off」" + "\n" + \
-                  "║│ MimicList" + "\n" + \
-                  "║│ MimicAdd「@」" + "\n" + \
-                  "║│ MimicDel「@」" + "\n" + \
-                  "║│ Tag" + "\n" + \
-                  "║│ Lurking「On/Off/Reset」" + "\n" + \
-                  "║│ Lurking" + "\n" + \
-                  "║┝────────────" + "\n" + \
-                  "║┝──[ ❇ MEDIA ❇]" + "\n" + \
-                  "║│ Kalender" + "\n" + \
-                  "║│ CheckDate「Date」" + "\n" + \
-                  "║┝────────────\n║╰❉【SELFBOT-BY:MAX】❇\n╰━━━━━━━━━━━━━\n━━━┅═❉ই۝ई❉═┅━━━━"
+    helpMessage = """   ━━┅═❉ই۝ई❉═┅━━
+         😈    SELFBOT    😈
+╭━━━━━━━━━━━
+║╭        😈  คำสั่ง 😈
+║┝──────────
+║┝─[ 😈  STATUS  😈 ]
+║│ Restart
+║│ Runtime
+║│ Sp
+║│ Status
+║│ About
+║│ Dell「Removechat」
+║┝──────────
+║┝─[ 😈 SETTING 😈 ]
+║│ Allstatus「On/Off」
+║│ Notif「On/Off」
+║│ Sider「On/Off」
+║│ AutoAdd「On/Off」
+║│ AutoJoin「On/Off」
+║│ AutoLeave「On/Off」
+║│ AutoRead「On/Off」
+║│ CheckSticker「On/Off」
+║│ DetectMention「On/Off」
+║┝──────────
+║┝─[ 😈  SELF  😈 ]
+║│ คท
+║│ ไอดี
+║│ ชื่อ
+║│ ตัส
+║│ รูป
+║│ วิดีโอ
+║│ ปก
+║│ คท「@」
+║│ ไอดี「@」
+║│ ชื่อ「@」
+║│ ตัส「@」
+║│ รูป「@」
+║│ วิดีโอ「@」
+║│ ปก「@」
+║│ CloneProfile「@」
+║│ RestoreProfile
+║┝──────────
+║┝─[ 😈 GROUP 😈 ]
+║│ GroupCreator
+║│ GroupId
+║│ GroupName
+║│ GroupPicture
+║│ GroupTicket
+║│ GroupTicket「On/Off」
+║│ GroupList
+║│ GroupMemberList
+║│ GroupInfo
+║│ Mimic「On/Off」
+║│ MimicList
+║│ MimicAdd「@」
+║│ MimicDel「@」
+║│ Tag
+║│ Lurking「On/Off/Reset」
+║│ Lurking
+║┝──────────
+║┝─[ 😈 MEDIA 😈 ]
+║│ Kalender
+║│ CheckDate「Date」
+║┝──────────
+║╰❉ ™SELFBOT-BY:MAX™ ❇
+╰━━━━━━━━━━━
+━━━┅═❉ই۝ई❉═┅━━━
+"""
     return helpMessage
     
 def clBot(op):
@@ -390,30 +398,30 @@ def clBot(op):
                     settings["autoLeave"] = False
                     settings["autoRead"] = False
                     settings["datectMention"] = False
-                    cl.sendMessage(to, "Allstatus bot mode on")
+                    cl.sendMessage(to, "Allstatus bot mode off")
 
-                elif text.lower() == 'me':
+                elif text.lower() == 'คท':
                     sendMessageWithMention(to, clMID)
                     cl.sendContact(to, clMID)
-                elif text.lower() == 'mymid':
+                elif text.lower() == 'ไอดี':
                     cl.sendMessage(msg.to,"[MID]\n" +  clMID)
-                elif text.lower() == 'myname':
+                elif text.lower() == 'ชื่อ':
                     me = cl.getContact(clMID)
                     cl.sendMessage(msg.to,"[DisplayName]\n" + me.displayName)
-                elif text.lower() == 'mybio':
+                elif text.lower() == 'ตัส':
                     me = cl.getContact(clMID)
                     cl.sendMessage(msg.to,"[StatusMessage]\n" + me.statusMessage)
-                elif text.lower() == 'mypicture':
+                elif text.lower() == 'รูป':
                     me = cl.getContact(clMID)
                     cl.sendImageWithURL(msg.to,"http://dl.profile.line-cdn.net/" + me.pictureStatus)
-                elif text.lower() == 'myvideoprofile':
+                elif text.lower() == 'วิดีโอ':
                     me = cl.getContact(clMID)
                     cl.sendVideoWithURL(msg.to,"http://dl.profile.line-cdn.net/" + me.pictureStatus + "/vp")
-                elif text.lower() == 'mycover':
+                elif text.lower() == 'ปก':
                     me = cl.getContact(clMID)
                     cover = cl.getProfileCoverURL(clMID)    
                     cl.sendImageWithURL(msg.to, cover)
-                elif msg.text.lower().startswith("stealcontact "):
+                elif msg.text.lower().startswith("คท "):
                     if 'MENTION' in msg.contentMetadata.keys()!= None:
                         names = re.findall(r'@(\w+)', text)
                         mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -426,7 +434,7 @@ def clBot(op):
                             contact = cl.getContact(ls)
                             mi_d = contact.mid
                             cl.sendContact(msg.to, mi_d)
-                elif msg.text.lower().startswith("stealmid "):
+                elif msg.text.lower().startswith("ไอดี "):
                     if 'MENTION' in msg.contentMetadata.keys()!= None:
                         names = re.findall(r'@(\w+)', text)
                         mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -439,7 +447,7 @@ def clBot(op):
                         for ls in lists:
                             ret_ += "\n{}" + ls
                         cl.sendMessage(msg.to, str(ret_))
-                elif msg.text.lower().startswith("stealname "):
+                elif msg.text.lower().startswith("ชื่อ "):
                     if 'MENTION' in msg.contentMetadata.keys()!= None:
                         names = re.findall(r'@(\w+)', text)
                         mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -451,7 +459,7 @@ def clBot(op):
                         for ls in lists:
                             contact = cl.getContact(ls)
                             cl.sendMessage(msg.to, "[ Display Name ]\n" + contact.displayName)
-                elif msg.text.lower().startswith("stealbio "):
+                elif msg.text.lower().startswith("ตัส "):
                     if 'MENTION' in msg.contentMetadata.keys()!= None:
                         names = re.findall(r'@(\w+)', text)
                         mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -463,7 +471,7 @@ def clBot(op):
                         for ls in lists:
                             contact = cl.getContact(ls)
                             cl.sendMessage(msg.to, "[ Status Message ]\n{}" + contact.statusMessage)
-                elif msg.text.lower().startswith("stealpicture "):
+                elif msg.text.lower().startswith("รูป "):
                     if 'MENTION' in msg.contentMetadata.keys()!= None:
                         names = re.findall(r'@(\w+)', text)
                         mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -475,7 +483,7 @@ def clBot(op):
                         for ls in lists:
                             path = "http://dl.profile.line.naver.jp/" + cl.getContact(ls).pictureStatus
                             cl.sendImageWithURL(msg.to, str(path))
-                elif msg.text.lower().startswith("stealvideoprofile "):
+                elif msg.text.lower().startswith("วิดีโอ "):
                     if 'MENTION' in msg.contentMetadata.keys()!= None:
                         names = re.findall(r'@(\w+)', text)
                         mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -487,7 +495,7 @@ def clBot(op):
                         for ls in lists:
                             path = "http://dl.profile.cl.naver.jp/" + cl.getContact(ls).pictureStatus + "/vp"
                             cl.sendImageWithURL(msg.to, str(path))
-                elif msg.text.lower().startswith("stealcover "):
+                elif msg.text.lower().startswith("ปก "):
                     if cl != None:
                         if 'MENTION' in msg.contentMetadata.keys()!= None:
                             names = re.findall(r'@(\w+)', text)
