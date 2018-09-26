@@ -329,7 +329,7 @@ def clBot(op):
                         cl.sendMessage(to, str(ret_))
                     except Exception as e:
                         cl.sendMessage(msg.to, str(e))
-                elif text.lower() == 'status':
+                elif text.lower() == 'เชคค่า':
                     try:
                         ret_ = "━━━┅═❉ই۝ई❉═┅━━━\n          ❇    STATUS    ❇\n╭━━━━━━━━━━━━━\n║╭❉ 🔵[ON]|[OFF]🔴 ❇\n║┝────────────"
                         if settings["autoAdd"] == True: ret_ += "\n║│🔵 Auto Add [ON]"
