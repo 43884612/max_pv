@@ -33,14 +33,14 @@ settings = json.load(settingsOpen)
 
 
 settings = {
-    "autoAdd": False,
+    "autoAdd": True,
     "autoJoin": False,
     "autoLeave": False,
     "autoRead": False,
     "lang":"JP",
     "detectMention": True,
     "changeGroupPicture":[],
-    "notifikasi": False,
+    "notifikasi": True,
     "Sider":{},
     "checkSticker": False,
     "userAgent": [
@@ -191,6 +191,7 @@ def helpmessage():
 ║│ เชคค่า
 ║│ ข้อมูล
 ║│ ลบแชท「Removechat」
+║│ ปลิว「@」
 ║┝──────────
 ║┝─[ 😈 SETTING 😈 ]
 ║│ Allstatus「On/Off」
