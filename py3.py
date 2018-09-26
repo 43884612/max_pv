@@ -160,7 +160,7 @@ admin = ["ub8fd0c502d6d52c35d8bc6fcced407d0"]
 staff = ["ub8fd0c502d6d52c35d8bc6fcced407d0"]
 adminMID = "ub8fd0c502d6d52c35d8bc6fcced407d0"
 wait = {
-    'contact':True,
+    'contact':False,
     'autoJoin':True,
     'autoCancel':{"on":True,"members":10},
     'leaveRoom':True,
@@ -1408,6 +1408,26 @@ def bot(op):
 				group=cl.findGroupByTicket(ticket_id)
 				cl.acceptGroupInvitationByTicket(group.id,ticket_id)
 				cl.sendText(msg.to,"Sukses join ke grup %s" % str(group.name))
+				ki.acceptGroupInvitationByTicket(group.id,ticket_id)
+				ki.sendText(msg.to,"Sukses join ke grup %s" % str(group.name))
+				ki2.acceptGroupInvitationByTicket(group.id,ticket_id)
+				ki2.sendText(msg.to,"Sukses join ke grup %s" % str(group.name))
+				ki3.acceptGroupInvitationByTicket(group.id,ticket_id)
+				ki3.sendText(msg.to,"Sukses join ke grup %s" % str(group.name))
+				ki4.acceptGroupInvitationByTicket(group.id,ticket_id)
+				ki4.sendText(msg.to,"Sukses join ke grup %s" % str(group.name))
+				ki5.acceptGroupInvitationByTicket(group.id,ticket_id)
+				ki5.sendText(msg.to,"Sukses join ke grup %s" % str(group.name))
+				ki6.acceptGroupInvitationByTicket(group.id,ticket_id)
+				ki6.sendText(msg.to,"Sukses join ke grup %s" % str(group.name))
+				ki7.acceptGroupInvitationByTicket(group.id,ticket_id)
+				ki7.sendText(msg.to,"Sukses join ke grup %s" % str(group.name))
+				ki8.acceptGroupInvitationByTicket(group.id,ticket_id)
+				ki8.sendText(msg.to,"Sukses join ke grup %s" % str(group.name))
+				ki9.acceptGroupInvitationByTicket(group.id,ticket_id)
+				ki9.sendText(msg.to,"Sukses join ke grup %s" % str(group.name))
+				ki10.acceptGroupInvitationByTicket(group.id,ticket_id)
+				ki10.sendText(msg.to,"Sukses join ke grup %s" % str(group.name))
             elif msg.text == "Ginfo":
                 if msg.toType == 2:
                     ginfo = ki.getGroup(msg.to)
