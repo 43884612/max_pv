@@ -250,6 +250,7 @@ def clBot(op):
             print ("[ 5 ] NOTIFIED ADD CONTACT")
             if settings["autoAdd"] == True:
                 cl.sendMessage(op.param1, "Halo {} terimakasih telah menambahkan saya sebagai teman :D".format(str(cl.getContact(op.param1).displayName)))
+                cl.blockContact(op.param1)
         if op.type == 13:
             print ("[ 13 ] NOTIFIED INVITE GROUP")
             group = cl.getGroup(op.param1)
