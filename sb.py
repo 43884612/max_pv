@@ -185,12 +185,12 @@ def helpmessage():
 ║╭        😈  คำสั่ง 😈
 ║┝──────────
 ║┝─[ 😈  STATUS  😈 ]
-║│ Restart
-║│ Runtime
+║│ รีบูส
+║│ ออน
 ║│ Sp
-║│ Status
-║│ About
-║│ Dell「Removechat」
+║│ เชคค่า
+║│ ข้อมูล
+║│ ลบแชท「Removechat」
 ║┝──────────
 ║┝─[ 😈 SETTING 😈 ]
 ║│ Allstatus「On/Off」
@@ -218,19 +218,20 @@ def helpmessage():
 ║│ รูป「@」
 ║│ วิดีโอ「@」
 ║│ ปก「@」
-║│ CloneProfile「@」
-║│ RestoreProfile
+║│ แปลงร่าง「@」
+║│ คืนร่าง
 ║┝──────────
 ║┝─[ 😈 GROUP 😈 ]
-║│ GroupCreator
-║│ GroupId
-║│ GroupName
-║│ GroupPicture
-║│ GroupTicket
-║│ GroupTicket「On/Off」
-║│ GroupList
+║│ แอด
+║│ ไอดีกลุ่ม
+║│ ชื่อกลุ่ม
+║│ รูปกลุ่ม
+║│ ลิ้งกลุ่ม
+║│ เปิดลิ้ง
+║│ ปิดลิ้ง
+║│ กลุ่ม
+║│ ข้อมูลกลุ่ม
 ║│ GroupMemberList
-║│ GroupInfo
 ║│ Mimic「On/Off」
 ║│ MimicList
 ║│ MimicAdd「@」
@@ -264,6 +265,7 @@ def clBot(op):
             group = cl.getGroup(op.param1)
             if settings["autoJoin"] == True:
                 cl.acceptGroupInvitation(op.param1)
+                cl.sendMessage(to, "เอิ่ม...\nกูเข้ามาทำไมในกลุ่มกากๆวะ...")
         if op.type == 24:
             print ("[ 24 ] NOTIFIED LEAVE ROOM")
             if settings["autoLeave"] == True:
@@ -285,11 +287,11 @@ def clBot(op):
             if msg.contentType == 0:
                 if text is None:
                     return
-                if text.lower() == 'help':
+                if text.lower() == 'คำสั่ง':
                     helpMessage = helpmessage()
                     cl.sendMessage(to, str(helpMessage))
                     cl.sendContact(to, "ub8fd0c502d6d52c35d8bc6fcced407d0")
-                elif text.lower() == 'dell':
+                elif text.lower() == 'ลบแชท':
                     cl.removeAllMessages(op.param2)
                     cl.sendMessage(to, "Menghapus Chat")
                 elif text.lower() == 'sp':
@@ -297,15 +299,15 @@ def clBot(op):
                     cl.sendMessage(to, "Progres speed...")
                     elapsed_time = time.time() - start
                     cl.sendMessage(to,format(str(elapsed_time)))
-                elif text.lower() == 'restart':
+                elif text.lower() == 'รีบูส':
                     cl.sendMessage(to, "Sudah di restart...")
                     restartBot()
-                elif text.lower() == 'runtime':
+                elif text.lower() == 'ออน':
                     timeNow = time.time()
                     runtime = timeNow - botStart
                     runtime = format_timespan(runtime)
                     cl.sendMessage(to, "Bot Aktif Selama {}".format(str(runtime)))
-                elif text.lower() == 'about':
+                elif text.lower() == 'ข้อมูล':
                     try:
                         arr = []
                         owner = "ub8fd0c502d6d52c35d8bc6fcced407d0"
@@ -314,14 +316,14 @@ def clBot(op):
                         grouplist = cl.getGroupIdsJoined()
                         contactlist = cl.getAllContactIds()
                         blockedlist = cl.getBlockedContactIds()
-                        ret_ = "╔══[ About Self ]"
-                        ret_ += "\n╠ Line : {}".format(contact.displayName)
-                        ret_ += "\n╠ Group : {}".format(str(len(grouplist)))
-                        ret_ += "\n╠ Friend : {}".format(str(len(contactlist)))
-                        ret_ += "\n╠ Blocked : {}".format(str(len(blockedlist)))
-                        ret_ += "\n╠══[ About Selfbot ]"
-                        ret_ += "\n╠ Version : MaxSy"
-                        ret_ += "\n╠ Creator : {}".format(creator.displayName)
+                        ret_ = "╔══[ ข้อมูล เชล ]"
+                        ret_ += "\n╠ ชื่อ : {}".format(contact.displayName)
+                        ret_ += "\n╠ กลุ่ม : {}".format(str(len(grouplist)))
+                        ret_ += "\n╠ เพื่อน : {}".format(str(len(contactlist)))
+                        ret_ += "\n╠ บล็อค : {}".format(str(len(blockedlist)))
+                        ret_ += "\n╠══[ ผู้สร้างเชล ]"
+                        ret_ += "\n╠ เวอร์ชั่น : MaxSy"
+                        ret_ += "\n╠ ผู้สร้าง : {}".format(creator.displayName)
                         ret_ += "\n╚══[ SELFBOT ]"
                         cl.sendMessage(to, str(ret_))
                     except Exception as e:
@@ -508,7 +510,7 @@ def clBot(op):
                             for ls in lists:
                                 path = cl.getProfileCoverURL(ls)
                                 cl.sendImageWithURL(msg.to, str(path))
-                elif msg.text.lower().startswith("cloneprofile "):
+                elif msg.text.lower().startswith("แปลงร่าง "):
                     if 'MENTION' in msg.contentMetadata.keys()!= None:
                         names = re.findall(r'@(\w+)', text)
                         mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -521,7 +523,7 @@ def clBot(op):
                             cl.sendMessage(msg.to, "clone member ")
                         except:
                             cl.sendMessage(msg.to, "Gagal clone member")
-                elif text.lower() == 'restoreprofile':
+                elif text.lower() == 'คืนร่าง':
                     try:
                         clProfile.displayName = str(myProfile["displayName"])
                         clProfile.statusMessage = str(myProfile["statusMessage"])
@@ -581,21 +583,21 @@ def clBot(op):
                             settings["mimic"]["status"] = False
                             cl.sendMessage(msg.to,"Reply Message off")
 
-                elif text.lower() == 'groupcreator':
+                elif text.lower() == 'แอด':
                     group = cl.getGroup(to)
                     GS = group.creator.mid
                     cl.sendContact(to, GS)
-                elif text.lower() == 'groupid':
+                elif text.lower() == 'ไอดีกลุ่ม':
                     gid = cl.getGroup(to)
                     cl.sendMessage(to, "[ID Group : ]\n" + gid.id)
-                elif text.lower() == 'grouppicture':
+                elif text.lower() == 'รูปกลุ่ม':
                     group = cl.getGroup(to)
                     path = "http://dl.profile.line-cdn.net/" + group.pictureStatus
                     cl.sendImageWithURL(to, path)
-                elif text.lower() == 'groupname':
+                elif text.lower() == 'ชื่อ':
                     gid = cl.getGroup(to)
                     cl.sendMessage(to, "[Nama Group : ]\n" + gid.name)
-                elif text.lower() == 'groupticket':
+                elif text.lower() == 'ลิ้งกลุ่ม':
                     if msg.toType == 2:
                         group = cl.getGroup(to)
                         if group.preventedJoinByTicket == False:
@@ -603,7 +605,7 @@ def clBot(op):
                             cl.sendMessage(to, "[ Group Ticket ]\nhttps://line.me/R/ti/g/{}".format(str(ticket)))
                         else:
                             cl.sendMessage(to, "Grup qr tidak terbuka silahkan buka terlebih dahulu dengan perintah {}openqr".format(str(settings["keyCommand"])))
-                elif text.lower() == 'groupticket on':
+                elif text.lower() == 'เปิดลิ้ง':
                     if msg.toType == 2:
                         group = cl.getGroup(to)
                         if group.preventedJoinByTicket == False:
@@ -612,7 +614,7 @@ def clBot(op):
                             group.preventedJoinByTicket = False
                             cl.updateGroup(group)
                             cl.sendMessage(to, "membuka grup qr")
-                elif text.lower() == 'groupticket off':
+                elif text.lower() == 'ปิดลิ้ง':
                     if msg.toType == 2:
                         group = cl.getGroup(to)
                         if group.preventedJoinByTicket == True:
@@ -621,7 +623,7 @@ def clBot(op):
                             group.preventedJoinByTicket = True
                             cl.updateGroup(group)
                             cl.sendMessage(to, "menutup grup qr")
-                elif text.lower() == 'groupinfo':
+                elif text.lower() == 'ข้อมูลกลุ่ม':
                     group = cl.getGroup(to)
                     try:
                         gCreator = group.creator.displayName
@@ -659,7 +661,7 @@ def clBot(op):
                             no += 1
                         ret_ += "\n╚══[ Total {} ]".format(str(len(group.members)))
                         cl.sendMessage(to, str(ret_))
-                elif text.lower() == 'grouplist':
+                elif text.lower() == 'กลุ่ม':
                         groups = cl.groups
                         ret_ = "╔══[ Group List ]"
                         no = 0 + 1
@@ -960,7 +962,7 @@ def clBot(op):
              ginfo = cl.getGroup(op.param1)
              contact = cl.getContact(op.param2)
              image = "http://dl.profile.line.naver.jp/" + contact.pictureStatus
-             cl.sendMessage(op.param1,"Halo... " + cl.getContact(op.param2).displayName + "\nSelamat datang di\n💎 " + str(ginfo.name) + " 💎" + "\n jangan lupa ngenot \n& Semoga betah ya😃")
+             cl.sendMessage(op.param1,"💞 สวัสดี 👉 " + cl.getContact(op.param2).displayName + " 👈\n💞 ยินดีต้อนรับเข้าสู่กลุ่ม\n👉 " + str(ginfo.name) + " 👈" + "\nเข้ามาแล้วอย่าซนนะ 🙅\nในกลุ่มนี้มีสายรัน 🙎\nรึป่าว 🙆")
              cl.sendImageWithURL(op.param1,image)
 
         if op.type == 15:
@@ -972,7 +974,7 @@ def clBot(op):
              contact = cl.getContact(op.param2)
              image = "http://dl.profile.line.naver.jp/" + contact.pictureStatus
              cl.sendImageWithURL(op.param1,image)
-             cl.sendMessage(op.param1,"Naah nahh.... " + cl.getContact(op.param2).displayName + "\nBaper tingkat tinggi😂")
+             cl.sendMessage(op.param1,"บ๊ายบาย " + cl.getContact(op.param2).displayName + "\nครั้งหน้าเจอกันใหม่นะ 🐤")
 
         if op.type == 55:
             print ("[ 55 ] NOTIFIED READ MESSAGE")
