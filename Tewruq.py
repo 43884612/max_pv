@@ -38,7 +38,7 @@ settings = {
     "autoLeave": False,
     "autoRead": False,
     "lang":"JP",
-    "detectMention": False,
+    "detectMention": True,
     "potoMention": True,
     "changeGroupPicture":[],
     "notifikasi": True,
