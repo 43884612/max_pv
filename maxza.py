@@ -180,75 +180,81 @@ def backupData():
         return False
 
 def helpmessage():
-    helpMessage = """   ━━┅═❉ই۝ई❉═┅━━
-         😈    SELFBOT    😈
-╭━━━━━━━━━━━
-║╭        😈  คำสั่ง 😈
-║┝──────────
-║┝─[ 😈  STATUS  😈 ]
-║│ รีบูส
-║│ ออน
-║│ Sp
-║│ เชคค่า
-║│ ข้อมูล
-║│ ลบแชท「Removechat」
-║│ ปลิว「@」
-║┝──────────
-║┝─[ 😈 SETTING 😈 ]
-║│ Allstatus「On/Off」
-║│ Notif「On/Off」
-║│ Sider「On/Off」
-║│ AutoAdd「On/Off」
-║│ AutoJoin「On/Off」
-║│ AutoLeave「On/Off」
-║│ AutoRead「On/Off」
-║│ CheckSticker「On/Off」
-║│ DetectMention「On/Off」
-║┝──────────
-║┝─[ 😈  SELF  😈 ]
-║│ คท
-║│ ไอดี
-║│ ชื่อ
-║│ ตัส
-║│ รูป
-║│ วิดีโอ
-║│ ปก
-║│ คท「@」
-║│ ไอดี「@」
-║│ ชื่อ「@」
-║│ ตัส「@」
-║│ รูป「@」
-║│ วิดีโอ「@」
-║│ ปก「@」
-║│ แปลงร่าง「@」
-║│ คืนร่าง
-║┝──────────
-║┝─[ 😈 GROUP 😈 ]
-║│ แอด
-║│ ไอดีกลุ่ม
-║│ ชื่อกลุ่ม
-║│ รูปกลุ่ม
-║│ ลิ้งกลุ่ม
-║│ เปิดลิ้ง
-║│ ปิดลิ้ง
-║│ กลุ่ม
-║│ ข้อมูลกลุ่ม
-║│ GroupMemberList
-║│ Mimic「On/Off」
-║│ MimicList
-║│ MimicAdd「@」
-║│ MimicDel「@」
-║│ Tag
-║│ Lurking「On/Off/Reset」
-║│ Lurking
-║┝──────────
-║┝─[ 😈 MEDIA 😈 ]
-║│ Kalender
-║│ CheckDate「Date」
-║┝──────────
-║╰❉ ™SELFBOT-BY:MAX™ ❇
-╰━━━━━━━━━━━
-━━━┅═❉ই۝ई❉═┅━━━
+    helpMessage = """╔════════════════
+╠❂【さัএπัஞ✵ບิथℓℓҨतΩ】
+╚════════════════
+╔════════════════
+╠❂     😈  STATUS  😈
+╠════════════════
+╠ ✯͜͡❂รีบูส
+╠ ✯͜͡❂ออน
+╠ ✯͜͡❂Sp
+╠ ✯͜͡❂เชคค่า
+╠ ✯͜͡❂ข้อมูล
+╠ ✯͜͡❂ลบแชท「Removechat」
+╠ ✯͜͡❂ปลิว「@」
+╠════════════════
+╠❂     😈 SETTING 😈
+╠════════════════
+╠ ✯͜͡❂Allstatus「On/Off」
+╠ ✯͜͡❂Notif「On/Off」
+╠ ✯͜͡❂Sider「On/Off」
+╠ ✯͜͡❂AutoAdd「On/Off」
+╠ ✯͜͡❂AutoJoin「On/Off」
+╠ ✯͜͡❂AutoLeave「On/Off」
+╠ ✯͜͡❂AutoRead「On/Off」
+╠ ✯͜͡❂CheckSticker「On/Off」
+╠ ✯͜͡❂DetectMention「On/Off」
+╠════════════════
+╠❂        😈 SELF 😈
+╠════════════════
+╠ ✯͜͡❂คท
+╠ ✯͜͡❂ไอดี
+╠ ✯͜͡❂ชื่อ
+╠ ✯͜͡❂ตัส
+╠ ✯͜͡❂รูป
+╠ ✯͜͡❂วิดีโอ
+╠ ✯͜͡❂ปก
+╠ ✯͜͡❂คท「@」
+╠ ✯͜͡❂ไอดี「@」
+╠ ✯͜͡❂ชื่อ「@」
+╠ ✯͜͡❂ตัส「@」
+╠ ✯͜͡❂รูป「@」
+╠ ✯͜͡❂วิดีโอ「@」
+╠ ✯͜͡❂ปก「@」
+╠ ✯͜͡❂แปลงร่าง「@」
+╠ ✯͜͡❂คืนร่าง
+╠ ✯͜͡❂เปลี่ยนรูป
+╠ ✯͜͡❂เปลี่ยนรูปกลุ่ม
+╠════════════════
+╠❂      😈 GROUP 😈
+╠════════════════
+╠ ✯͜͡❂แอด
+╠ ✯͜͡❂ไอดีกลุ่ม
+╠ ✯͜͡❂ชื่อกลุ่ม
+╠ ✯͜͡❂รูปกลุ่ม
+╠ ✯͜͡❂ลิ้งกลุ่ม
+╠ ✯͜͡❂เปิดลิ้ง
+╠ ✯͜͡❂ปิดลิ้ง
+╠ ✯͜͡❂กลุ่ม
+╠ ✯͜͡❂ข้อมูลกลุ่ม
+╠ ✯͜͡❂GroupMemberList
+╠ ✯͜͡❂Mimic「On/Off」
+╠ ✯͜͡❂MimicList
+╠ ✯͜͡❂MimicAdd「@」
+╠ ✯͜͡❂MimicDel「@」
+╠ ✯͜͡❂Tag
+╠ ✯͜͡❂Lurking「On/Off/Reset」
+╠ ✯͜͡❂Lurking
+╠ ✯͜͡❂Sider「On/Off」
+╠════════════════
+╠❂       😈 MEDIA 😈
+╠════════════════
+╠ ✯͜͡❂Kalender
+╠ ✯͜͡❂CheckDate「Date」
+╠════════════════
+╠❂ ™ SELFBOT-BY:MAX ™
+╚════════════════
 """
     return helpMessage
     
@@ -718,10 +724,10 @@ def clBot(op):
                                         ret_ += "".format(str(no))
                                     ret_ += "".format(str(len(dataMid)))
                                     cl.sendMessageWithMention(to, ret_, dataMid)
-                elif text.lower() == 'changepictureprofile':
+                elif text.lower() == 'เปลี่ยนรูป':
                             settings["changePicture"] = True
                             cl.sendMessage(to, "Silahkan kirim gambarnya")
-                elif text.lower() == 'changegrouppicture':
+                elif text.lower() == 'เปลี่ยนรูปกลุ่ม':
                             if msg.toType == 2:
                                 if to not in settings["changeGroupPicture"]:
                                     settings["changeGroupPicture"].append(to)
