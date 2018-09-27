@@ -38,7 +38,7 @@ settings = {
     "autoLeave": False,
     "autoRead": False,
     "lang":"JP",
-    "detectMention": True,
+    "detectMention": False,
     "potoMention": True,
     "changeGroupPicture":[],
     "notifikasi": True,
@@ -191,7 +191,7 @@ def helpmessage():
 ╠ ✯͜͡❂Sp
 ╠ ✯͜͡❂เชคค่า
 ╠ ✯͜͡❂ข้อมูล
-╠ ✯͜͡❂ลบแชท「Removechat」
+╠ ✯͜͡❂ลบแชท
 ╠ ✯͜͡❂ปลิว「@」
 ╠════════════════
 ╠❂     😈 SETTING 😈
@@ -962,10 +962,10 @@ def clBot(op):
                     text = msg.text
                     if text is not None:
                         cl.sendMessage(msg.to,text)
-                if msg.contentType == 0 and sender not in lineMID and msg.toType == 2:
+                if msg.contentType == 0 and sender not in clMID and msg.toType == 2:
                     if "MENTION" in list(msg.contentMetadata.keys())!= None:
                          if settings['potoMention'] == True:
-                             contact = line.getContact(msg._from)
+                             contact = cl.getContact(msg._from)
                              cName = contact.pictureStatus
                              mi_d = contact.mid
                              balas = ["http://dl.profile.line-cdn.net/"]
@@ -973,9 +973,9 @@ def clBot(op):
                              mention = ast.literal_eval(msg.contentMetadata["MENTION"])
                              mentionees = mention["MENTIONEES"]
                              for mention in mentionees:
-                                   if mention["M"] in lineMID:
-                                          line.sendImageWithURL(to,ret_)
-                                          line.sendContact(msg.to, mi_d)
+                                   if mention["M"] in clMID:
+                                          cl.sendImageWithURL(to,ret_)
+                                          cl.sendContact(msg.to, mi_d)
                                           break 
 
                 if msg.contentType == 0 and sender not in clMID and msg.toType == 2:
