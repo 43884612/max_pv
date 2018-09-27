@@ -39,6 +39,7 @@ settings = {
     "autoRead": False,
     "lang":"JP",
     "detectMention": True,
+    "potoMention": True,
     "changeGroupPicture":[],
     "notifikasi": True,
     "Sider":{},
@@ -955,6 +956,22 @@ def clBot(op):
                     text = msg.text
                     if text is not None:
                         cl.sendMessage(msg.to,text)
+                if msg.contentType == 0 and sender not in lineMID and msg.toType == 2:
+                    if "MENTION" in list(msg.contentMetadata.keys())!= None:
+                         if settings['potoMention'] == True:
+                             contact = line.getContact(msg._from)
+                             cName = contact.pictureStatus
+                             mi_d = contact.mid
+                             balas = ["http://dl.profile.line-cdn.net/"]
+                             ret_ = random.choice(balas)
+                             mention = ast.literal_eval(msg.contentMetadata["MENTION"])
+                             mentionees = mention["MENTIONEES"]
+                             for mention in mentionees:
+                                   if mention["M"] in lineMID:
+                                          line.sendImageWithURL(to,ret_)
+                                          line.sendContact(msg.to, mi_d)
+                                          break 
+
                 if msg.contentType == 0 and sender not in clMID and msg.toType == 2:
                     if 'MENTION' in msg.contentMetadata.keys()!= None:
                         names = re.findall(r'@(\w+)', text)
