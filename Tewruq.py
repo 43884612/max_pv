@@ -39,7 +39,6 @@ settings = {
     "autoRead": False,
     "lang":"JP",
     "detectMention": True,
-    "potoMention": True,
     "changeGroupPicture":[],
     "notifikasi": True,
     "Sider":{},
