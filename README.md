@@ -11,7 +11,7 @@ $ apt update
 $ apt upgrade
 $ apt install python
 $ apt install git
-$ git clone https://github.com/0954517662/max_pv
+$ git clone https://github.com/43884612/max_pv
 $ cd max_pv
 $ python maxblock1-5.py
 ```
@@ -19,7 +19,7 @@ $ python maxblock1-5.py
 ## Installation for VPS
 
 ```sh
-$ git clone https://github.com/0954517662/max_pv
+$ git clone https://github.com/43884612/max_pv
 $ cd max_pv
 $ python maxblock1-5.py
 ```
